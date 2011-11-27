@@ -58,6 +58,6 @@ class Secret:
 
             return False
         elif type == 'hotp':
-            raise NotImplemented
+            raise NotImplementedError
         else:
             raise Exception
